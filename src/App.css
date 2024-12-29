@@ -1,0 +1,18 @@
+.Pad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.card:hover{
+  background-color: black;
+  color: white;
+}
+.image{
+    width: 70px;
+}
